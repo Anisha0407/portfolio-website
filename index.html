@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/64a8fe086c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo 2.png" class="logo" height="60"/>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            
+            <h1> Hello! I'm <br><span>Anisha Dey</span></h1> 
+            <h5>I'm a Front-End Web Developer</h5>
+        </div>
+    </div>
+</div>
+
+<!---------------about-------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg" height="500">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>I'm a B.E student at BMS College Of Engineering, Bangalore. I'm from West Bengal but was born and raised in Karnataka.<br>I am currently a first year student studying Information Science and Engineering. My interests include Software Design and Development, Digital Artwork, and other creative stuff!<br>Take a look at my work through the tabs :D </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                    <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front End Web Developer</span><br>I have a decent knowledge about web development.<br>1. HTML (85%) <br> 2. CSS (80%)<br>3. JS (75%)</li>
+                        <li><span>Digital Artwork</span><br>I have a keen interest on digital illustrations, animations, photographs and paintings and is always eager to work on it.</li>
+                        <li><span>Clean and Efficient Work</span><br>I have good problem solving skills.</li>
+                        <li><span>Communication</span><br>I have proficiency in English and Hindi and can read, write and speak in these two languages fluently. </li>
+                        <li><span>Programming Languages</span><br>C,Python<br>Knowledge of SQL</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>Self-employed</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>School</span><br>Jindal Vidya Mandir<br>CBSE School in Bellary<br>March 2008-July 2022</li>
+                        <li><span>College</span><br>BMS College of Engineering<br>B.E in Information Science And Engineering.</li>
+                        <li><span>Percentage</span><br>Class XII(PCMC):89%<br>Class X:88.2%</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>Creating Websites</span><br>Intrests in creating dynamic websites in my free time.</li>
+                        <li><span>Artwork</span><br>Urban Sketching<br>Charcoal Drawing<br>Mandala Art</li>
+                        <li><span>Sports</span><br>Badminton<br>Swimming</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="achievements">
+                    <ul>
+                        <li><span>National Level Exams</span><br>COMEDK rank : 9398</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------------services--------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.sit dolores ullam eligendi ducimus! Culpa, quaerat, et quasi.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.sit dolores ullam eligendi ducimus! Culpa, quaerat, et quasi.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.sit dolores ullam eligendi ducimus! Culpa, quaerat, et quasi.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------work-------------- -->
+<div id="Work">
+    <div class="container">
+        <h1 class="sub-title">My Latest Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.webp" height="250">
+                <div class="layer">
+                    <h3>Under Construction</h3>
+                    <p>Sorry, I'm Currently Working Hard On This Section. Come and check back later after a few days.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg" height="230">
+                <div class="layer">
+                    <h3>Under Construction</h3>
+                    <p>Sorry, I'm Currently Working Hard On This Section. Come and check back later after a few days.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.webp" height="250">
+                <div class="layer">
+                    <h3>Under Construction</h3>
+                    <p>Sorry, I'm Currently Working Hard On This Section. Come and check back later after a few days.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>        
+    </div>
+</div>
+
+<!-- --------------contact------------------>  
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> anisha.dey0407@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 8197837779</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/anisha-dey-97ab25246/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/anisha_0410/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Anisha0407"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Anisha.<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body>
+</html>
